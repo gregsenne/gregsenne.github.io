@@ -724,6 +724,11 @@ h4 {
 	margin-top: 20px;
 	margin-right: 30px;
 }
+@media (max-width: 400px) {
+	#aapLogo {
+		width: 100%;
+	}
+}
 #psm {
  	display: flex;
 	padding: 30px 20px;	
