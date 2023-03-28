@@ -256,6 +256,12 @@ h4 {
 	height: 440px;
 	width: 395px;
 }
+@media (max-width: 395px) {
+	#greg1 > img { 
+		width: 100%;
+		height: auto;
+	}
+}
 
 #greg1_text {
 	max-width: 1000px;
@@ -288,6 +294,17 @@ h4 {
     font-size: xxx-large;
     font-family: 'Tw Cen MT';
 }
+@media (max-width: 400px) {
+	#greg1_name {
+		font-size: xx-large;
+	}
+}
+@media (max-width: 300px) {
+	#greg1_name {
+		font-size: x-large;
+	}
+}
+
 #greg1_name span {
 	/* top: 20px; */
 	opacity: 0;
